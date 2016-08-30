@@ -390,7 +390,7 @@ def send_email(mail_to, title, mail_file):
     os.system(send_mail_cmd)
 
 
-# date or month string: 2015-03-28 or 2015-03
+# date or month string: 2016-07-28 or 2016-07
 def get_last_month(date_string):
     temp_array = date_string.split("-")
     year = int(temp_array[0])
@@ -416,7 +416,7 @@ def get_next_month(date_string):
     return "%4d-%02d" %(year, month)
 
 
-# month string : 2015-03
+# month string : 2016-07
 def get_month_days(month_string):
     month_list = month_string.split('-')
     year = int(month_list[0])
